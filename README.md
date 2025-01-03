@@ -1,13 +1,13 @@
 # Multiplication Table Generator
 
 ## Overview
-This Python program generates a multiplication table for a user-specified base number up to a user-defined number of rows. The program leverages input validation for robust handling of user inputs and provides a clean, formatted output of the multiplication table. In the second version, the program now allows users to create additional tables without restarting the script.
+A simple Python program that allows users to generate multiplication tables for a base number, with customizable rows. After each table is generated, the user is prompted whether they'd like to create another one.
 
 ## Features
 - Allows the user to specify both positive and negative base numbers.
 - Ensures the user specifies at least one row for the multiplication table.
 - Uses a `while` loop to iterate through each row and calculate the multiplication results dynamically.
-- Provides an option to generate additional tables without restarting the program.
+- Provides an option to generate additional tables.
 - Cleanly formatted output for easy readability.
 
 ## How It Works
@@ -58,11 +58,11 @@ What is the maximum amount of rows you would like to generate? 3
 4 X 2 = 8
 4 X 3 = 12
 Would you like to create another multiplication table? (y/n) n
+Thank you for using the Multiplication Table Generator! Goodbye!
 ```
 
 ## Future Enhancements
 - Add an option to save the table to a text file.
-- Allow users to generate multiple tables in a single session without recursion.
 - Add an option to customize the range (e.g., start and end numbers) for the table.
 
 ## License
