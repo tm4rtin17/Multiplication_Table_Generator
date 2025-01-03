@@ -23,7 +23,7 @@ This Python program generates a multiplication table for a user-specified base n
 
 ## Installation
 1. Clone this repository or download the program file.
-2. Ensure you have Python 3.x installed on your system.
+2. Ensure you have Python 3.13.1 installed on your system.
 3. Install `pyinputplus` by running:
    ```bash
    pip install pyinputplus
